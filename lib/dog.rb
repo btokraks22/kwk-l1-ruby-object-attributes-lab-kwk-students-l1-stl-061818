@@ -17,7 +17,7 @@ def breed
 end
 
 dottie = Dog.new("Dottie", "Chug(Chiuaha)")
-puts "This dog's name is #{name}. #{name} is a #{breed}"
+puts "This dog's name is #{name}. Dottie is a #{breed}"
 
 end
 
@@ -38,6 +38,6 @@ class Person
   end
   
   melissa = Person.new("Melissa", "Statefarm agent")
-  puts "This person's name is #{person_name}. #{name} is a #{job}. #{name} owns the dog named #{name}."
+  puts "This person's name is #{person_name}. Melissa is a #{job}. #{name} owns the dog named #{name}."
   
 end 
