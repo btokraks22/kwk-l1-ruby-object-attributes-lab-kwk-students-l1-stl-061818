@@ -16,7 +16,7 @@ def breed
   @breed
 end
 
-dottie = Dog.new("Dottie", "Chug(Chiuaha)")
+dottie = Dog.new("Dottie", "Chug")
 puts "This dog's name is #{name}. Dottie is a #{breed}"
 
 end
